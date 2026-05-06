@@ -6,9 +6,8 @@ Sky-image test-case sets for the [zodiacal](https://github.com/OrbitalCommons/zo
 
 | set | renderer | catalog | sensor | n cases | notes |
 |---|---|---|---|---|---|
+| `set1-legacy/` | meter-sim `sensor_shootout` (retired) | `gaia_mag16_multi.bin` | IMX455 single | 1000 | Imported from `zodiacal/test_cases/` per [zodiacal#102](https://github.com/OrbitalCommons/zodiacal/issues/102); historical baseline (96.7% solve-rate). See `set1-legacy/README.md`. |
 | `set2-dr3-mag19/` | [focalplane](https://github.com/CosmicFrontierLabs/focalplane) `motion_simulator` | Gaia DR3 mag-20 HEALPix excerpt, queried at G ≤ 19 | IMX455 single | 1000 | Generated 2026-05; see below |
-
-A `set1-legacy/` migration of the old in-repo `zodiacal/test_cases/` is tracked in [zodiacal#NN](https://github.com/OrbitalCommons/zodiacal/issues) (replace with the issue number once filed).
 
 ## set2-dr3-mag19 — generation configuration
 
