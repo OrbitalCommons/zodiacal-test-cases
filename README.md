@@ -9,6 +9,7 @@ Sky-image test-case sets for the [zodiacal](https://github.com/OrbitalCommons/zo
 | `set1-legacy/` | meter-sim `sensor_shootout` (retired) | `gaia_mag16_multi.bin` | IMX455 single | 1000 | Imported from `zodiacal/test_cases/` per [zodiacal#102](https://github.com/OrbitalCommons/zodiacal/issues/102); historical baseline (96.7% solve-rate). See `set1-legacy/README.md`. |
 | `set2-dr3-mag19/` | [focalplane](https://github.com/CosmicFrontierLabs/focalplane) `motion_simulator` | Gaia DR3 mag-20 HEALPix excerpt, queried at G ≤ 19 | IMX455 single | 1000 | Generated 2026-05; see below |
 | `set3-dr3-mag19-galaxies-10k/` | [focalplane](https://github.com/CosmicFrontierLabs/focalplane) `motion_simulator` | Gaia DR3 at G ≤ 19 + NSA galaxies | IMX455 single | 10000 | Uniform-sphere, seeded star-and-galaxy set; see `set3-dr3-mag19-galaxies-10k/README.md` |
+| `hubble-f606w/` | Real HST F606W drizzled products from MAST, extracted with `zodiacal extract` | (real sky; see `_gaia_census.csv` for Gaia coverage) | ACS/WFC, ACS/HRC, WFC3/UVIS, WFPC2/PC | 75673 | Real data, 1994–2026 epochs; re-extracted 2026-10 after the NaN-background fix; see `hubble-f606w/README.md` |
 
 ## set2-dr3-mag19 — generation configuration
 
